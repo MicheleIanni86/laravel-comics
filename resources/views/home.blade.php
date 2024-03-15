@@ -11,7 +11,9 @@
   </head>
 
   <body>
+    @include('partials._header')
     <h1>Laravel with Bootstrap + Vite</h1>
+    @include('partials._footer')
   </body>
 
 </html>
