@@ -1,6 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 body {
-    width: 100%;
     height: 100%;
 }
 .stripes-blue {
@@ -42,4 +41,13 @@ li {
 .container-img-jumbo {
     height: 395px;
     overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
+// COMICS---------------------------------------
+
+.body-comics {
+    background-color: #1c1c1c;
 }

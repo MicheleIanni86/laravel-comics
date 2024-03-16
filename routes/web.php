@@ -22,7 +22,8 @@ Route::get('/characters', function () {
 })->name('characters');
 
 Route::get('/comics', function () {
-  return view('jumboparts.comics');
+  $comics = config('comics');
+  return view('jumboparts.comics', compact('comics'));
 })->name('comics');
 
 Route::get('/movies', function () {
