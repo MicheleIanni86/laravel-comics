@@ -70,3 +70,48 @@ li {
         object-position: top;
     }
 }
+
+.container-comics {
+    position: relative;
+
+    .badge-comics {
+        position: absolute;
+        color: white;
+        background-color: #0282f9;
+        font-size: 28px;
+        font-weight: 600;
+        padding: 5px 20px;
+        top: -30px;
+        left: 290px;
+    }
+}
+
+.container-link {
+    background-color: #0282f9;
+    padding: 50px 0;
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            a img {
+                height: 60px;
+            }
+
+            p {
+                margin: 0;
+                padding: 0 10px;
+                color: white;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .dimension-svg {
+        width: 60px;
+    }
+}
