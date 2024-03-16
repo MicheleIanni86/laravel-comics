@@ -115,3 +115,46 @@ li {
         width: 60px;
     }
 }
+
+// FOOTER-------------------------------------------------------------
+.bgr-footer {
+    height: 500px;
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-footer {
+    height: 500px;
+}
+.left-footer {
+    width: 50%;
+    ul {
+        .first-title-link {
+            color: #fffffe;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        li a {
+            text-decoration: none;
+            color: #92908f;
+            font-size: 12px;
+        }
+    }
+}
+
+.right-footer {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+        position: relative;
+        bottom: 30px;
+    }
+}
+.bord {
+    border: 2px dashed red;
+}
