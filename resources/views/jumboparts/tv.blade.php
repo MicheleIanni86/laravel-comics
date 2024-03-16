@@ -1,5 +1,6 @@
 @extends('layout.app')
 
 @section('main-content')
-    <h1>LARAVEL Comics Homepage</h1>
+  <h1>Tv</h1> 
 @endsection
+    
