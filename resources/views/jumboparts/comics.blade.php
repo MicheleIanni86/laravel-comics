@@ -11,10 +11,10 @@
       
       @foreach ($comics as $comic)
       <div class="col-2">
-        <div class="card">
+        <div class="card card-comics">
           <img src="{{ $comic['thumb'] }}" alt="">
-          <h3>{{ $comic['series'] }}</h3>
         </div>
+        <h5 class="title-comics" type="button">{{ $comic['series'] }}</h5>
       </div>
       @endforeach 
     </div>
