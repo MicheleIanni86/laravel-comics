@@ -137,11 +137,11 @@
             <div class="sign-up-botton px-4" type="button">SIGN-UP NOW!</div>
             <div class="right-social d-flex align-items-center gap-3">
                 <p class="me-4 mb-0 title-socials">FOLLOW US</p>
-                <img src="{{ Vite::asset('/resources/images/footer-facebook.png') }}" alt="">
-                <img src="{{ Vite::asset('/resources/images/footer-twitter.png') }}" alt="">
-                <img src="{{ Vite::asset('/resources/images/footer-youtube.png') }}" alt="">
-                <img src="{{ Vite::asset('/resources/images/footer-pinterest.png') }}" alt="">
-                <img src="{{ Vite::asset('/resources/images/footer-periscope.png') }}" alt="">
+                <a href="#"><img src="{{ Vite::asset('/resources/images/footer-facebook.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('/resources/images/footer-twitter.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('/resources/images/footer-youtube.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('/resources/images/footer-pinterest.png') }}" alt=""></a>
+                <a href="#"><img src="{{ Vite::asset('/resources/images/footer-periscope.png') }}" alt=""></a>
             </div>
         </div>
     </div>
