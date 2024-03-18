@@ -1,9 +1,13 @@
 <footer>
-    <div class="bgr-footer">
-        <div class="container container-footer  d-flex">
 
-            <div class="left-footer d-flex gap-5 ">
-                <div class="row pt-4">
+        <div class="bgr-footer">
+    
+            <div class="container container-footer  d-flex">
+
+                <div class="left-footer gap-5 ">
+                    
+                    <div class="row pt-4">
+
                         <div class="col-4">
 
                             {{-- first column --}}
@@ -42,11 +46,13 @@
                                 </li>
                                 <li>
                                     <a href="#">Shop DC Collectibles</a>
-                                </li>
-                                
+                                </li>  
                             </ul>
+
                         </div>
+
                         <div class="col-4">
+
                             {{-- second column --}}
                             <ul class="m-0 p-0 d-flex flex-column">
                                 <span class="first-title-link mb-1">DC</span>
@@ -107,19 +113,25 @@
                                 </li>
                             </ul>
                         </div>    
-                        
-                        <div class="col-4">
+                    </div>
 
-                            {{-- last column --}}
- 
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="copyright-footer">All Site Content TM and &#169; 2020 DC Entertainment, unless otherwhise <a href="#">noted here</a>. All rights reserved. <a href="#">Cookies Settings</a></span>
                         </div>
-                        </div>
+                    </div>
+
                 </div>
+
                 <div class="right-footer">
                     <img src="{{ Vite::asset('/resources/images/dc-logo-bg.png') }}" alt="">
                 </div>
-            </div>                   
-    </div>
+
+            </div>
+
+        </div>
+
     <div class="last-footer d-flex">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="sign-up-botton px-4" type="button">SIGN-UP NOW!</div>
