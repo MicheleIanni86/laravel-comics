@@ -204,7 +204,7 @@ li {
     border: 2px solid white;
     position: absolute;
     top: -270px;
-    left: 365px;
+    left: 300px;
     overflow: hidden;
     img {
         width: 100%;
@@ -220,7 +220,7 @@ li {
         font-size: 15px;
         top: 0;
         left: 0;
-        padding: 0 5px;
+        padding: 1px 12px;
     }
 
     .badge-down {
@@ -232,5 +232,24 @@ li {
         font-size: 14px;
         bottom: 0;
         cursor: pointer;
+    }
+}
+.title-comics-info {
+    color: #002975;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.box-check {
+    display: flex;
+    justify-content: space-between;
+    background-color: #55ba59;
+    border-bottom: 1px solid black;
+    .price-avaible {
+        border-right: 1px solid gray;
+        div {
+            color: #c0fa85;
+            font-weight: 600;
+        }
     }
 }
