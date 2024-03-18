@@ -36,4 +36,100 @@
     </div>
 </div>
 
+<div class="main-info">
+    <div class="container">
+
+        <div class="row g-5 py-5">
+
+            <div class="col-6">
+                <div class="talent-specs mb-4">Talent</div>
+
+                    <div class="d-flex col-art-written">
+                      <div class="w-25">
+                          <p class="title-talent">Art By:</p>              
+                      </div>
+         
+                      <div class="w-75">
+                            <p><a href="#">Mattia Volonterio, Michele Ianni, Demetrio Padre, Luca Polzone, Yousef, Nicola Teora, Nicola Gallo, Graziano Paladino, Serena Malusà, Simone Cappadona, Simone Pucci</a><p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex col-art-written" id="col-art-written-last">
+                        <div class="w-25">
+                            <p class="title-talent">Written By:</p>              
+                        </div>
+           
+                        <div class="w-75">
+                              <p><a href="#">Brad Meltzer, Tom King, Scott Snyder, Geoff Jhons, Brian Michaela Bendis, Paul Dini, Louise Simonson, Richard Donner, Marv Woldman, Peterj. Toimmasi, Dan Jurgens, Jerry Siegel, Paul Levitz</a><p>
+                        </div>
+                      </div>
+         
+
+            </div>
+            
+            
+            <div class="col-6">
+                <div class="talent-specs mb-4">Specs</div>
+
+                <div class="d-flex col-serie-price-date">
+                        <div class="w-25">
+                          <p class="title-specs">Series:</p>              
+                        </div>
+       
+                        <div class="w-75">
+                          <p ><a href="#" id="title-serie-specs">{{ strtoupper($comic['series']) }}</a><p>
+                        </div>
+                </div>
+
+                <div class="d-flex col-serie-price-date">
+                        <div class="w-25">
+                          <p class="title-specs">U.S. Price:</p>              
+                        </div>
+         
+                        <div class="w-75">
+                          <p>{{ $comic['price'] }}<p>
+                        </div>
+                </div>
+
+                <div class="d-flex col-serie-price-date" id="col-serie-price-date-last">
+                    <div class="w-25">
+                      <p class="title-specs">One Sale Date:</p>              
+                    </div>
+     
+                    <div class="w-75">
+                      <p>{{ $comic['sale_date'] }}<p>
+                    </div>
+            </div>                
+
+            </div>
+
+        </div>
+
+        
+    </div>
+    <div class="last-info mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 d-flex justify-content-between p-2">
+                    <p>DIGITAL COMICS</p>
+                    <img src="{{ Vite::asset('/resources/images/buy-comics-digital-comics.png') }}" alt="">
+                </div>
+                <div class="col-3 d-flex justify-content-between p-2">
+                    <p>SHOP DC</p>
+                    <img src="{{ Vite::asset('/resources/images/buy-comics-merchandise.png') }}" alt="">
+                </div>
+                <div class="col-3 d-flex justify-content-between p-2">
+                    <p>COMIC SHOP LOCATOR</p>
+                    <img src="{{ Vite::asset('/resources/images/buy-comics-shop-locator.png') }}" alt="">
+                </div>
+                <div class="col-3 d-flex justify-content-between p-2">
+                    <p>SUBSCRIPTIONS</p>
+                    <img src="{{ Vite::asset('/resources/images/buy-comics-subscriptions.png') }}" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    
 @endsection

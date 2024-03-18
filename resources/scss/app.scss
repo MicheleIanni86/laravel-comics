@@ -253,3 +253,66 @@ li {
         }
     }
 }
+
+.main-info {
+    background-color: #f6f6f6;
+}
+
+.talent-specs {
+    color: #012d54;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.col-art-written,
+.col-serie-price-date {
+    padding: 15px 0;
+    border-top: 1px solid lightgrey;
+
+    p {
+        margin: 0;
+        a {
+            text-decoration-line: none;
+            font-size: 13px;
+        }
+    }
+
+    #title-serie-specs {
+        font-size: 1rem;
+    }
+
+    .title-talent,
+    .title-specs {
+        font-weight: bold;
+        color: #012d54;
+        font-size: 13px;
+    }
+}
+#col-art-written-last,
+#col-serie-price-date-last {
+    border-bottom: 1px solid lightgrey;
+}
+
+.last-info {
+    height: 70px;
+    border-top: 1px solid lightgray;
+
+    p {
+        color: #999fa6;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    img {
+        height: 50px;
+        filter: invert(20%);
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .col-3 {
+        border: 1px solid lightgray;
+        border-top: none;
+        border-bottom: none;
+    }
+}
