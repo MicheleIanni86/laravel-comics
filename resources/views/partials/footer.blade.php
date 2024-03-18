@@ -1,6 +1,7 @@
 <footer>
     <div class="bgr-footer">
         <div class="container container-footer  d-flex">
+
             <div class="left-footer d-flex gap-5 ">
                 <div class="row pt-4">
                         <div class="col-4">
@@ -117,11 +118,20 @@
                 <div class="right-footer">
                     <img src="{{ Vite::asset('/resources/images/dc-logo-bg.png') }}" alt="">
                 </div>
+            </div>                   
+    </div>
+    <div class="last-footer d-flex">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="sign-up-botton px-4" type="button">SIGN-UP NOW!</div>
+            <div class="right-social d-flex align-items-center gap-3">
+                <p class="me-4 mb-0 title-socials">FOLLOW US</p>
+                <img src="{{ Vite::asset('/resources/images/footer-facebook.png') }}" alt="">
+                <img src="{{ Vite::asset('/resources/images/footer-twitter.png') }}" alt="">
+                <img src="{{ Vite::asset('/resources/images/footer-youtube.png') }}" alt="">
+                <img src="{{ Vite::asset('/resources/images/footer-pinterest.png') }}" alt="">
+                <img src="{{ Vite::asset('/resources/images/footer-periscope.png') }}" alt="">
             </div>
-            
-            
-
-
+        </div>
     </div>
         
 </footer>

@@ -1,6 +1,7 @@
 
 <div class="container-link">
     <div class="container">
+      
       <ul>
         <li>
           <a href="#">
@@ -37,10 +38,8 @@
           </a>
             <p>DC POWER VISA</p>
         </li>
-      </ul>
+      </ul> 
 
-  
- 
-      </div>
     </div>
+</div>
 

@@ -155,6 +155,29 @@ li {
         bottom: 30px;
     }
 }
+
+.last-footer {
+    height: 120px;
+    background-color: #252525;
+}
+
+.sign-up-botton {
+    height: 50px;
+    color: white;
+    border: 2px solid #0282f9;
+    line-height: 45px;
+}
+
+.sign-up-botton:hover {
+    background-color: #0282f9;
+}
+
+.title-socials {
+    color: #0282f9;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .bord {
     border: 2px dashed red;
 }
