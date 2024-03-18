@@ -8,10 +8,12 @@
     
     
     <div class="row g-4 ">
-      @foreach ($comics as $comic)
+      @foreach ($comics as $index => $comic)
       <div class="col-2">
         <div class="card card-comics mt-5">
-          <img src="{{ $comic['thumb'] }}" alt="">
+          <a href="{{ route('comic-info', ['index' => $index]) }}">
+            <img src="{{ $comic['thumb'] }}" alt="">
+          </a>
         </div>
         <h5 class="title-comics mb-5" type="button">{{ $comic['series'] }}</h5>
       </div>

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\PageController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,48 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-  return view('home');
-})->name('home');
-
-Route::get('/characters', function () {
-  return view('jumboparts.characters');
-})->name('characters');
-
-Route::get('/comics', function () {
-  $comics = config('comics');
-  return view('jumboparts.comics', compact('comics'));
-})->name('comics');
-
-Route::get('/movies', function () {
-  return view('jumboparts.movies');
-})->name('movies');
-
-Route::get('/tv', function () {
-  return view('jumboparts.tv');
-})->name('tv');
-
-Route::get('/games', function () {
-  return view('jumboparts.games');
-})->name('games');
-
-Route::get('/collectibles', function () {
-  return view('jumboparts.collectibles');
-})->name('collectibles');
-
-Route::get('/videos', function () {
-  return view('jumboparts.videos');
-})->name('videos');
-
-Route::get('/fans', function () {
-  return view('jumboparts.fans');
-})->name('fans');
-
-Route::get('/news', function () {
-  return view('jumboparts.news');
-})->name('news');
-
-Route::get('/shop', function () {
-  return view('jumboparts.shop');
-})->name('shop');
+Route::get('/', [PageController::class, 'index'])->name('home');
+Route::get('/characters', [PageController::class, 'characters'] )->name('characters');
+Route::get('/comics', [PageController::class, 'comics'] )->name('comics');
+Route::get('comic-info/{index}', [PageController::class,'comicInfo'] )-> name('comic-info');
+Route::get('/movies', [PageController::class, 'movies'] )->name('movies');
+Route::get('/tv', [PageController::class, 'tv'] )->name('tv');
+Route::get('/games', [PageController::class, 'games'] )->name('games');
+Route::get('/collectibles', [PageController::class, 'collectibles'] )->name('collectibles');
+Route::get('/videos', [PageController::class, 'videos'] )->name('videos');
+Route::get('/fans', [PageController::class, 'fans'] )->name('fans');
+Route::get('/news', [PageController::class, 'news'] )->name('news');
+Route::get('/shop', [PageController::class, 'shop'] )->name('shop');
 
